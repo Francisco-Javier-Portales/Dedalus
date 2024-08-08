@@ -1,0 +1,10 @@
+
+version: '3'
+
+services:
+  request-http-c:
+    image: request-http
+    container_name: request-http-c
+    ports:
+      - 5000:5000
+
